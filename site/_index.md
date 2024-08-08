@@ -20,17 +20,18 @@ There are five distinct feature sets under development:
 1.  *[Value Classes and Objects](https://openjdk.org/jeps/401)*, introducing
     objects that lack identity and thus can have optimized encodings
 
-2.  *Null-Restricted and Nullable Types*, providing language support for
-    null-aware types and runtime enforcement of null restrictions
+2.  *[Null-Restricted and Nullable Types](https://openjdk.org/jeps/8303099)*,
+    providing language support for null-aware types and runtime enforcement
+    of null restrictions
 
-3.  *[Null-Restricted Value Class Types](https://openjdk.org/jeps/8316779)*,
+4.  *[Null-Restricted Value Class Types](https://openjdk.org/jeps/8316779)*,
     improving the performance of fields and arrays with null-restricted
     value class types
 
-4.  *[Enhanced Primitive Boxing](https://openjdk.org/jeps/402)*, allowing
+5.  *[Enhanced Primitive Boxing](https://openjdk.org/jeps/402)*, allowing
     primitives to be treated more like objects
 
-5.  *Parametric JVM*, preserving and optimizing generic class and method
+6.  *Parametric JVM*, preserving and optimizing generic class and method
     parameterizations at runtime
 
 We've also worked on some supplementary tasks and features, including:
