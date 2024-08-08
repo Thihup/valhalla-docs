@@ -24,14 +24,14 @@ There are five distinct feature sets under development:
     providing language support for null-aware types and runtime enforcement
     of null restrictions
 
-4.  *[Null-Restricted Value Class Types](https://openjdk.org/jeps/8316779)*,
+3.  *[Null-Restricted Value Class Types](https://openjdk.org/jeps/8316779)*,
     improving the performance of fields and arrays with null-restricted
     value class types
 
-5.  *[Enhanced Primitive Boxing](https://openjdk.org/jeps/402)*, allowing
+4.  *[Enhanced Primitive Boxing](https://openjdk.org/jeps/402)*, allowing
     primitives to be treated more like objects
 
-6.  *Parametric JVM*, preserving and optimizing generic class and method
+5.  *Parametric JVM*, preserving and optimizing generic class and method
     parameterizations at runtime
 
 We've also worked on some supplementary tasks and features, including:
